@@ -1,0 +1,20 @@
+{
+  "name": "pactum-graphql",
+  "version": "1.0.0",
+  "description": "Testes em GraphQL com Pactum",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/graphql/categories.test.js ./test/graphql/products.test.js ./test/graphql/category.contract.test.js ./test/graphql/product.contract.test.js --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "ernestosbarbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "mochawesome": "^8.1.1",
+    "pactum": "^3.6.0"
+  },
+  "dependencies": {
+    "pactum-matchers": "^1.1.6"
+  }
+}
